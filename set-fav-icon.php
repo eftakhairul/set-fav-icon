@@ -35,7 +35,7 @@ function es_enqueue_favicon_head()
 
 function es_save_favicon_url()
 {
-    include("save_icon_url.php");
+    include("save-icon-url.php");
 }
 
 
