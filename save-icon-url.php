@@ -22,7 +22,7 @@ $link    = (!empty($_POST['link'])) ? $_POST['link'] : $result[0]->link;
 //    }
 //}
 //    ?>
-    <h2>Set Fav Icon Url</h2>
+    <h2>Set Favicon URL</h2>
 
     <form method="post" action="<?php echo $_SERVER['REQUEST_URI']?>">
         <?php wp_nonce_field('update-options'); ?>
