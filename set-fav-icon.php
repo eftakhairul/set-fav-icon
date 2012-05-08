@@ -9,6 +9,7 @@ Author URI: http://eftakhairul.com (Eftakhairul) & http://salayhin.com (Salayhin
 License: GPL2
 */
 
+
 include_once('installation-plugin.php');
 
 register_activation_hook (__FILE__,'es_favicon_install');
@@ -29,16 +30,11 @@ function es_enqueue_favicon_head()
     global $wpdb;
     $favIconTable = $wpdb->prefix . "fav_icon_link";
     $result = $wpdb->get_results("SELECT * FROM $favIconTable WHERE id = 1");
-    echo '<link rel="shortcut icon" href="' . $result[0]->link . '" type="image/x-icon" /><!-- Favi -->';
 
+    echo '<link rel="shortcut icon" href="' . $result[0]->link . '" type="image/x-icon" /><!-- Favicon -->';
 }
 
 function es_save_favicon_url()
 {
     include("save-icon-url.php");
 }
-
-
-
-
-
