@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: set-fav-icon
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin Name: easy-set-favicon
+Plugin URI: https://github.com/eftakhairul/set-fav-icon/zipball/master
 Description: This plugin will help you to set Fav icon to your blog.
-Version: The Plugin's Version Number, e.g.: 1.0
+Version: 1.0
 Author: Eftakhairul Islam & Sirajus Salayhin 
 Author URI: http://eftakhairul.com (Eftakhairul) & http://salayhin.com (Salayhin)
 License: GPL2
