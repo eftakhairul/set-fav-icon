@@ -1,14 +1,14 @@
 <?php
+
 /*
-Plugin Name: easy-set-favicon
-Plugin URI: https://github.com/eftakhairul/set-fav-icon/zipball/master
-Description: This plugin will help you to set Fav icon to your blog.
+Plugin Name: Easy Set Favicon
+Plugin URI: https://github.com/eftakhairul/Set-Fav-Icon/blob/master/README.md
+Description: Set the fav-icon in your blog or website just by putting a link.
 Version: 1.0
 Author: Eftakhairul Islam & Sirajus Salayhin 
-Author URI: http://eftakhairul.com (Eftakhairul) & http://salayhin.com (Salayhin)
+Author URI: https://github.com/eftakhairul/Set-Fav-Icon/blob/master/README.md
 License: GPL2
 */
-
 
 include_once('installation-plugin.php');
 
@@ -22,7 +22,7 @@ add_action('wp_head', 'es_enqueue_favicon_head');
 function es_set_favicon_create_menu()
 {
     $main_option_page = __FILE__;
-    add_menu_page('Set Fav icon', 'Set Icon Url', 'administrator', 'ad-fav-icon', 'es_save_favicon_url',plugins_url('/set-fav-icon/images/icon_pref_settings.gif','set-fav-icon'));
+    add_menu_page('Set Fav Icon', 'Set Fav Icon Url', 'administrator', 'ad-fav-icon', 'es_save_favicon_url',plugins_url('/set-fav-icon/images/icon_pref_settings.gif','set-fav-icon'));
 }
 
 function es_enqueue_favicon_head()

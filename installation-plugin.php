@@ -15,7 +15,7 @@ function es_favicon_install()
         echo 'Please install version greater than 3.0';
     }
 
-    $favIconTable = $wpdb->prefix . "fav_icon_link";
+    $favIconTable   = $wpdb->prefix . "fav_icon_link";
     $createTableSql = "CREATE TABLE `{$favIconTable}` (`id` TINYINT NOT NULL, `link` TEXT NOT NULL, PRIMARY KEY (`id`)) ENGINE = InnoDB CHARACTER SET utf8 COLLATE utf8_general_ci";
     $insertSql      = "INSERT INTO `{$favIconTable}` (`id`, `link`) VALUES ('1', '')";
 

@@ -11,7 +11,7 @@ if(!empty($_POST['link'])) {
 }
 
 // Define form value
-$result = $wpdb->get_results("SELECT * FROM $favIconTable WHERE id = 1");
+$result  = $wpdb->get_results("SELECT * FROM $favIconTable WHERE id = 1");
 $link    = (!empty($_POST['link'])) ? $_POST['link'] : $result[0]->link;
 ?>
 
