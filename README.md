@@ -1,15 +1,15 @@
-Set Fav Icon
-
-Versions: 1.0
+== Set Fav Icon ==
 
 Set the fav-icon in your blog or website just by putting a link.
+Versions: 1.0
+
 =================================================================================
 
 Authors:
 
-Md. Eftakhairul Islam <eftakhairul@gmail.com> Web: http://eftakhairul.com
+[Md. Eftakhairul Islam](http://eftakhairul.com) <eftakhairul@gmail.com>
 
-Sirajus Salayhin <salayhin@gmail.com> Web: http://salayhin.com
+[Sirajus Salayhin](https://salayhin.wordpress.com) <salayhin@gmail.com>
 
 
 
