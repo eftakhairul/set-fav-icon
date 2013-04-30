@@ -42,6 +42,9 @@ A. Yes, possible. You  can upload image to media. Then, just take link and put t
 
 A. Yes, you can. You can put any valid link.
 
+= Q. What types of file extension does it support ? =
+A. It supports ico, png, jpg, jpeg or other image types.
+
 == Screenshots ==
 
 1. Click the 'Set Fav Icon Url' button at admin menu.
