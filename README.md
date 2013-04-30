@@ -7,9 +7,9 @@ Versions: 1.0
 
 Authors:
 
-[Md. Eftakhairul Islam](http://eftakhairul.com) <eftakhairul@gmail.com>
+[Md. Eftakhairul Islam](http://eftakhairul.com) Email: eftakhairul@gmail.com
 
-[Sirajus Salayhin](https://salayhin.wordpress.com) <salayhin@gmail.com>
+[Sirajus Salayhin](https://salayhin.wordpress.com) Email: salayhin@gmail.com
 
 
 
