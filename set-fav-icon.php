@@ -17,6 +17,7 @@ register_deactivation_hook (__FILE__,'es_favicon_uninstall');
 
 add_action('admin_menu', 'es_set_favicon_create_menu');
 add_action('wp_head', 'es_enqueue_favicon_head');
+add_action('admin_head', 'es_enqueue_favicon_head');
 
 
 function es_set_favicon_create_menu()
@@ -31,7 +32,9 @@ function es_enqueue_favicon_head()
     $favIconTable = $wpdb->prefix . "fav_icon_link";
     $result = $wpdb->get_results("SELECT * FROM $favIconTable WHERE id = 1");
 
-    echo '<link rel="shortcut icon" href="' . $result[0]->link . '" type="image/x-icon" /><!-- Favicon -->';
+    if (!empty($result)) {
+        echo '<link rel="shortcut icon" href="' . $result[0]->link . '" type="image/x-icon" /><!-- Favicon -->';
+    }
 }
 
 function es_save_favicon_url()
