@@ -1,7 +1,9 @@
 # Set Fav Icon #
 
-Set the fav-icon in your blog or website just by putting a link.
+Set the fav-icon in your wordpress blog or website just by putting a link.
 Versions: 1.0
+
+Plugin Link: http://wordpress.org/plugins/easy-set-favicon/
 
 =================================================================================
 
